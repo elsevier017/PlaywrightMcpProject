@@ -12,5 +12,6 @@ loginTest('Login to automationexercise.com and verify Logout button', async ({ l
   await loginPage.goto();
   await loginPage.login('kamleshmahtodata1@gmail.com', 'Google@123');
   // Wait for navigation or page update after login
-  await loginPage.page.waitForLoadState('networkidle');
+  await loginPage.page.waitForLoadState();
+  await expect(loginPage.isLogoutVisible()).resolves.toBe(true);
 });
