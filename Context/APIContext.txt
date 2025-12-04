@@ -1,0 +1,10 @@
+You are responsible for creating API tests with Playwright MCP, utilizing Playwright’s request context in combination with the @playwright/test framework.
+
+The test must:
+
+	Send HTTP requests to the target API.
+	Verify the status code, response body, and schema (when applicable).
+	Be implemented using async/await syntax.
+	Provide debug-friendly logs when needed.
+	Be exported as a spec.js file inside the /tests directory.
+Do not generate any code until all steps have been carefully reviewed and validated.
