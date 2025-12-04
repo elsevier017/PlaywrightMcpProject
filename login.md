@@ -3,7 +3,7 @@
 Add a Playwright test scenario for https://automationexercise.com/login to log in using:
 
 Email: kamleshmahtodata1@gmail.com
-Password: Google@12345
+Password: Google@123
 Requirements:
 
 Create a page class for the "Signup / Login" page.
